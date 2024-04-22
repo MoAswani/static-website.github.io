@@ -1,0 +1,305 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /*background-color: blueviolet;*/
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: yellow;
+}
+.one{
+    border: 0;
+    width: 100%;
+    height: 100px;
+}
+nav ul {
+float: left;
+}
+#logo{
+    float: left;
+    padding-right: 20px;
+    border: 0;
+}
+#glob{
+    float: left;
+    padding: 15px 5px;
+    display: block;
+    font-size: 25;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+nav ul li a {
+    padding: 14px 50px;
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding: 5px;
+    border-radius:  0px 0px 10px 10px;
+}
+nav ul li a:hover{
+    background-color: grey;
+}
+nav ul li:hover ul{
+    display: table;
+}
+nav ul li ul li a{
+    padding: 12px 14px;
+}
+nav ul li ul li a:hover{
+    background-color: grey;
+}
+nav ul li ul li{
+    width: auto;
+}
+.media{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 40px 20px;
+  height: 250px;
+  width: 100%;
+  border: 1px yellowgreen solid;
+  background-color: silver;
+
+}
+#music{
+  float: left;
+  text-align: center;
+  width: 40%;
+}
+#video{
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 100%;
+    background-color: green;
+    height: 40px;
+    padding-top: 5px;
+}
+<!-----gallery----->
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    padding: 10px 10px;
+    text-align: center;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: darkgreen;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .about{
+      font-size: larger;
+      padding: 20px 20px;
+      width: 90%;
+      display: flex;
+      text-align: center;
+  }
+  .visobout{
+      width: 100%;
+      height: 350px;
+      margin: 15px;
+
+  }
+  #vission{
+     font-size: 30px; 
+     width: 60%;
+     display: block;
+     padding: 10px 10px;
+     text-align: center;
+     float: left;
+     border-radius: 20px;
+
+  }
+  .coreval{
+      border-radius: 1px;
+      border: 1px black solid;
+      height: 250px;
+  }
+  #trust{
+      display: block;
+      float: right;
+  }
+ .mission{
+     width: 100%;
+     height: 400px;
+
+ }
+ #happy{
+    
+     width: 27%;
+     height: 300px;
+     display: block;
+     float: left;
+     margin: 20px 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+     padding: 10px 10px;
+
+
+ }
+ #stud{
+
+    width: 27%;
+    height: 300px;
+    display: block;
+    float: left;
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px 10px;
+ }
+ #fin{
+    width: 27%;
+    height: 300px;
+    display: block;
+    float: right;
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px 10px;
+ }
+ .form{
+     height: 350px;
+     width: 90%;
+     margin: 10px 20px;
+     border: 2px blueviolet solid;
+     border-radius: 15px 15px;
+     text-align: center;
+     font-size: medium;
+ }
+ .map{
+     margin: 20px 20px;
+     text-align: center;
+     width: 95%;
+     
+ }
+ .products{
+   font-size: larger;
+   text-align: center;
+   margin: auto;
+
+  }
+  button{
+    background-color: chocolate;
+  }
+  .addto{
+    margin-left: 200px;
+  }
+  .cart{
+    text-align: center;
+    border: 2px black solid;
+    font-size: large;
+    width: 95%;
+    height: 300px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    margin-left: 30px ;
+  }
+  .recent{
+    text-align: justify;
+    border: 2px black solid;
+    font-size: large;
+    width: 95%;
+    height: auto;
+    padding: 20px 20px;
+    margin-left: 30px ;
+    
+  }
+  
+    
